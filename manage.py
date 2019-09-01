@@ -16,6 +16,10 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
+# 创建app django-admin.py startapp people
+# 检查需要更新的数据库结果 python manage.py makemigrations
+# 动态创建数据库 python manage.py migrate
+
 
 if __name__ == '__main__':
     main()
